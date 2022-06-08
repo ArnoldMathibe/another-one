@@ -1,16 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel restrition</title>
-</head>
-<body>
-    <h1>Another One</h1>
-    <h2>Just added another one</h2>
-    <h3>We billionairs</h3>
-    <h3>Alright We Cool Mates</h3>
-   
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    </style>
+  </head>
+  <body>
+    <div class="chartMenu">
+      <p><strong>Revenues During The Pandemic Period</strong></p>
+    </div>
+    <div class="chartCard"><br>
+        <h1>Difference</h1>
+        <div class="entries">
+            <p>Please Enter Revanue Durring Covid</p><br>
+            <input class="covidRe" type="text" placeholder="Revanue during Covid">
+            <p>Please Enter Current Revanue</p><br>
+            <input class="currentRe" type="text" placeholder="Current revanue">
+          </div>
+      <div class="chartBox">
+        <canvas id="myChart"></canvas>
+      </div>
+      <button class="difference">Calculate Difference</button>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dom.js"></script>
+  </body>
 </html>
