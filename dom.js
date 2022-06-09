@@ -4,6 +4,27 @@ const restuarantButton = document.querySelector(".radioRestaurantBtn");
 const transpotationButton = document.querySelector(".radioTrasnsportationBtn");
 
 
+<<<<<<< HEAD
+=======
+const  revenueCurrent = (currentRevenue) =>{
+    var currentRevenue = currentInput.value;
+    var arr2 = currentRevenue.split(",");
+    console.log(arr2);
+}
+
+
+const calculation = (duringCov, currently) => {
+    var duringCov = revenueDuring();
+    var currently = revenueCurrent();
+    const diff = [];
+    
+    for( var i = 0; i < duringCov.length; i++){
+        const calc = Math.abs((duringCov[i] || 0) - (currently[i] || 0));
+        diff[i] = calc;
+    };
+    return diff;
+    }
+>>>>>>> f1ecd612811ee79461170fd60f9e7c43dbf6f087
     // console.log(calculation(duringCov, currently));
 
 

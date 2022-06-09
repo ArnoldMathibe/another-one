@@ -1,109 +1,128 @@
-    @media(min-width: 688px){
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-        .h1 {
-            width: 100vw;
-            height: 40px;
-            background: #035ea8;
-            color: whitesmoke
-        }
-        .h2 {
-            width: 100vw;
-            height: 40px;
-            background: #8493a0;
-            color: rgb(15, 118, 202)
-        }
-        .RadioButtonOptions {
-            padding: 10px;
-            font-size: 20px;
-        }
-       /* .chartCard {
-            border:solid #1A1A1A;
-            width: 100vw;
-            height: calc(100vh - 40px);
-            background: rgba(255, 26, 104, 0.2);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }*/
-        .Graph-results {
-            width: 600px;
-            padding: 20px;
-            border-radius: 20px;
-            border: solid 3px #035ea8;
-            background: white;
-            /* padding-bottom: 400px; */
-            float: left;
-        }
-        .entries{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .fisrtEntry{
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .secEntry{
-            display: flex;
-            justify-content: space-between;
-        }
-        
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align:center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 {
+    width: 100vw;
+    height: 40px;
+    background: #035ea8;
+    color: whitesmoke;
+    padding: 0.25em;
+}
+h3 {
+    width: 100vw;
+    height: 40px;
+    background: #8493a0;
+    color: whitesmoke;
+    padding: 0.25em;
+}
+.RadioButtonOptions {
+    padding: 10px;
+    font-size: 20px;
+}
+.radioHotelBtn{
+    float: left;
+    width: 15%;
+    padding: 0.8em;
+}
+.radioRestaurantBtn{
+    float: left;
+    width: 15%;
+    padding: 0.8em;
+}
+.radioTrasnsportationBtn{
+    float: left;
+    width: 15%;
+    padding: 0.8em;
+}
+
+@media(min-width: 50em){
+    
+    .Graph-results{
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px #035ea8;
+        background: white;
+        float: left;
+        width: 40%;
+    }
+    /*
+    .entries{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fisrtEntry{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secEntry{
+        display: flex;
+        justify-content: space-between;
+    }
+    */
 
     }
-
-    @media(max-width: 688px){
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-        .chartMenu {
-            width: 100vw;
-            height: 40px;
-            background: #1A1A1A;
-            color: rgba(255, 26, 104, 1);
-        }
-        .chartMenu p {
-            padding: 10px;
-            font-size: 20px;
-        }
-        .chartCard {
-            border:solid #1A1A1A;
-            width: auto;
-            height: calc(100vh - 40px);
-            background: rgba(255, 26, 104, 0.2);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .chartBox {
-            width: auto;
-            padding: 20px;
-            border-radius: 20px;
-            border: solid 3px rgba(255, 26, 104, 1);
-            background: white;
-
-        }
-        .entries{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .fisrtEntry{
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .secEntry{
-            display: flex;
-            justify-content: space-between;
-        }
+/*
+@media(max-width: 688px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
     }
- 
+    .chartMenu {
+        width: 100vw;
+        height: 40px;
+        background: #1A1A1A;
+        color: rgba(255, 26, 104, 1);
+    }
+    .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .chartCard {
+        border:solid #1A1A1A;
+        width: auto;
+        height: calc(100vh - 40px);
+        background: rgba(255, 26, 104, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chartBox {
+        width: auto;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px rgba(255, 26, 104, 1);
+        background: white;
+
+    }/*
+    .entries{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fisrtEntry{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secEntry{
+        display: flex;
+        justify-content: space-between;
+    }*
+}
+*/
+.clearfix{
+    overflow: auto;
+    zoom: 1;
+}
