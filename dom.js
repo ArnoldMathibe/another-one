@@ -15,10 +15,12 @@ const  revenueCurrent = (currentRevenue) =>{
     console.log(arr2);
 }
 
-var duringCov = revenueDuring();
-var currently = revenueCurrent();
+
 const calculation = (duringCov, currently) => {
+    var duringCov = revenueDuring();
+    var currently = revenueCurrent();
     const diff = [];
+    
     for( var i = 0; i < duringCov.length; i++){
         const calc = Math.abs((duringCov[i] || 0) - (currently[i] || 0));
         diff[i] = calc;
