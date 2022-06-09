@@ -20,7 +20,7 @@ let fourYearsChart;
 let pandemicChart;
 
 fisrtChoice.addEventListener("click", function(){
-    localStorage.setItem("oldData", [300,400,266,800,680])
+    localStorage.setItem("oldData", [600,600,490,120,310,370])
     console.log(localStorage.getItem("oldData"));
     const firstData = localStorage.getItem("oldData");
     console.table(firstData.split(","));
@@ -29,7 +29,7 @@ fisrtChoice.addEventListener("click", function(){
 
     // setup 
     const data = {
-        labels: ['2017', '2018', '2019', '2020', '2021'],
+        labels: ['2017', '2018', '2019', '2020', '2021', '2022'],
         datasets: [{
         label: 'Revenue Over Time',
         // data: [18, 12, 6, 9, 12, 3, 9],
@@ -101,7 +101,7 @@ fisrtChoice.addEventListener("click", function(){
 
 
 secondChoice.addEventListener("click", function(){
-    localStorage.setItem("oldData", [200,800,966,600,380])
+    localStorage.setItem("oldData", [800,850,600,200,350,430])
     console.log(localStorage.getItem("oldData"));
     const firstData = localStorage.getItem("oldData");
     console.table(firstData.split(","));
@@ -109,7 +109,7 @@ secondChoice.addEventListener("click", function(){
 
     // setup 
     const data = {
-        labels: ['2017', '2018', '2019', '2020', '2021'],
+        labels: ['2017', '2018', '2019', '2020', '2021', '2022'],
         datasets: [{
         label: 'Revenue Over Time',
         // data: [18, 12, 6, 9, 12, 3, 9],
@@ -196,7 +196,7 @@ secondChoice.addEventListener("click", function(){
 });
 
 thirdChoice.addEventListener("click", function(){
-    localStorage.setItem("oldData", [900,700,566,800,880])
+    localStorage.setItem("oldData", [900,700,566,100,200,300])
     console.log(localStorage.getItem("oldData"));
     const firstData = localStorage.getItem("oldData");
     console.table(firstData.split(","));
@@ -204,7 +204,7 @@ thirdChoice.addEventListener("click", function(){
 
     // setup 
     const data = {
-        labels: ['2017', '2018', '2019', '2020', '2021'],
+        labels: ['2017', '2018', '2019', '2020', '2021', '2022'],
         datasets: [{
         label: 'Revenue Over Time',
         // data: [18, 12, 6, 9, 12, 3, 9],
