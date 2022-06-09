@@ -209,12 +209,12 @@ thirdChoice.addEventListener("click", function(){
     
     // render init block
     if(secondChart){
-        firstChart.stop();
-        firstChart.destroy();
-    }
-    if(firstChart){
         secondChart.stop();
         secondChart.destroy();
+    }
+    if(firstChart){
+        firstChart.stop();
+        firstChart.destroy();
     }
     thirdChart = new Chart(
     document.getElementById('myChart'),
