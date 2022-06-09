@@ -9,69 +9,70 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-h1 {
+chartMenu{
     width: 100vw;
     height: 40px;
     background: #035ea8;
     color: whitesmoke;
     padding: 0.25em;
 }
-h3 {
+secondH {
     width: 100vw;
     height: 40px;
     background: #8493a0;
     color: whitesmoke;
     padding: 0.25em;
 }
-.RadioButtonOptions {
-    padding: 10px;
-    font-size: 20px;
-}
-.radioHotelBtn{
-    float: left;
-    width: 15%;
-    padding: 0.8em;
-}
-.radioRestaurantBtn{
-    float: left;
-    width: 15%;
-    padding: 0.8em;
-}
-.radioTrasnsportationBtn{
-    float: left;
-    width: 15%;
-    padding: 0.8em;
-}
-
-@media(min-width: 50em){
-    
-    .Graph-results{
-        padding: 20px;
-        border-radius: 20px;
-        border: solid 3px #035ea8;
-        background: white;
-        float: left;
-        width: 40%;
+@media(min-width: 688px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
     }
-    /*
-    .entries{
+    .chartMenu {
+        text-align: center;
+        width: 100vw;
+        height: 40px;
+        background: rgb(61, 61, 139);
+        color: rgb(252, 248, 250);
         display: flex;
         flex-direction: column;
     }
-    
-    .fisrtEntry{
-        display: flex;
-        justify-content: space-between;
+    .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
     }
-    
-    .secEntry{
+    .chartCard {
+        border:solid 2px rgb(49, 49, 121);
+        width: 100vw;
+        height: calc(100vh - 40px);
+        background: rgba(133, 127, 129, 0.2);
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    */
+    .chartBox {
+        width: 600px;
+        padding: 20px;
+        border-radius: 20px;
+        border:solid 4px rgb(61, 61, 139);
+        background: white;
+        /* padding-bottom: 400px; */
+        float: left;
+    }
+    .choises{
+        display: flex;
+        flex-direction: column;
+    } 
+    /*.secondH{
+        text-align: center;
+         background: rgb(61, 61, 139);
+        color: white;
+    }  */         
 
-    }
-/*
+}
+
 @media(max-width: 688px){
     *{
         margin: 0;
@@ -81,8 +82,10 @@ h3 {
     .chartMenu {
         width: 100vw;
         height: 40px;
-        background: #1A1A1A;
-        color: rgba(255, 26, 104, 1);
+        background: #035ea8;
+        color: whitesmoke;
+        padding: 0.25em;
+
     }
     .chartMenu p {
         padding: 10px;
@@ -92,7 +95,7 @@ h3 {
         border:solid #1A1A1A;
         width: auto;
         height: calc(100vh - 40px);
-        background: rgba(255, 26, 104, 0.2);
+        background: rgba(133, 127, 129, 0.2);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,27 +105,25 @@ h3 {
         width: auto;
         padding: 20px;
         border-radius: 20px;
-        border: solid 3px rgba(255, 26, 104, 1);
+        border:solid 4px rgb(61, 61, 139);
         background: white;
 
-    }/*
-    .entries{
+    }
+    .choises{
         display: flex;
         flex-direction: column;
     }
-    
-    .fisrtEntry{
-        display: flex;
-        justify-content: space-between;
+
+    .secondH{
+        
+        text-align: center;
+        width: 100vw;
+        height: 40px;
+        background: #8493a0;
+        color: whitesmoke;
+        padding: 0.25em;
     }
+
     
-    .secEntry{
-        display: flex;
-        justify-content: space-between;
-    }*
 }
-*/
-.clearfix{
-    overflow: auto;
-    zoom: 1;
-}
+
