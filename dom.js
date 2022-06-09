@@ -1,4 +1,6 @@
 
+
+    
 const fisrtChoice = document.querySelector(".button-17");
 const secondChoice = document.querySelector(".button-18");
 const thirdChoice = document.querySelector(".button-19");
