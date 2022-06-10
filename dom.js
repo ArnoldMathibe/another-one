@@ -437,16 +437,16 @@ fourYears.addEventListener("click", function(){
 
 // filter using pandemic years
 pandemic.addEventListener("click", function(){
-    console.log(localStorage.getItem("oldData").split(",").slice(2));
+    console.log(localStorage.getItem("oldData").split(",").slice(5));
     const pandemic = localStorage.getItem("oldData");
 
     // setup 
     const data = {
-        labels: ['2017', '2018', '2019', '2020', '2021'].slice(2),
+        labels: ['2015','2016','2017', '2018', '2019', '2020', '2021', '2022'].slice(5),
         datasets: [{
         label: 'Revenue Over Time',
         // data: [18, 12, 6, 9, 12, 3, 9],
-        data: pandemic.split(",").slice(2),
+        data: pandemic.split(",").slice(5),
         backgroundColor: [
         'rgba(255, 26, 104, 0.2)',
         'rgba(54, 162, 235, 0.2)',
