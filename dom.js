@@ -6,9 +6,9 @@ const secondChoice = document.querySelector(".button-18");
 const thirdChoice = document.querySelector(".button-19");
 
 // filter buttons must listen
-const fiveYears = document.querySelector(".five-years");
-const fourYears = document.querySelector(".four-years");
-const pandemic = document.querySelector(".pandemic");
+const fiveYears = document.querySelector(".button-85");
+const fourYears = document.querySelector(".button-86");
+const pandemic = document.querySelector(".button-87");
 
 let firstChart;
 let secondChart;
